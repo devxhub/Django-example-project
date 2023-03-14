@@ -1,6 +1,7 @@
-## Apps
+## Application with API 
 
-1. Blog Application API
+1. [Blog Application API](https://github.com/devxhubcom/Django-example-project/blob/dev/blogs/README.md)
+
 
    - Feature
      - User base post
