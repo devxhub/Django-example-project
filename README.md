@@ -1,7 +1,6 @@
-## Application with API 
+## Application with API
 
-1. [Blog Application API](https://github.com/devxhubcom/Django-example-project/blob/dev/blogs/README.md)
-
+1. [Blog Application API](https://github.com/devxhubcom/Django-example-project/blob/dev/blogs)
 
    - Feature
      - User base post
@@ -24,3 +23,6 @@
      - Multilanguage
      - Question
      - Answer
+
+4. Chat Application
+5.
