@@ -11,14 +11,14 @@
      - Comment by reply
      - Pagination
 
-2. Job Circular API
+2. [Job Circular API](https://github.com/devxhubcom/Django-example-project/blob/dev/jobs/README.md)
 
    - Feature
      - Create circular
      - Published and unpublished
      - Job application processing
 
-3. Frequently asked question API
+3. [Frequently asked question API](https://github.com/devxhubcom/Django-example-project/blob/dev/faqs/README.md)
 
    - Feature
      - Multilanguage
