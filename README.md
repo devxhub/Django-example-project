@@ -33,5 +33,5 @@
      - Leave
 
 5. [Chat Application]()
-
-
+6. [QR Code Generator ]()
+7. [Text to Art]()
