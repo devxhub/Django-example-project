@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- for dark theme hehe ez-->
+    <meta name="color-scheme" content="dark"> 
+    
+    <title>Text to ASCII Art</title>
+
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+
+        h1, form, .text, small{
+            display: flex;
+           
+            justify-content: center;
+            align-items: center;
+        }
+
+        small{
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 0.5rem;
+            background-color: #000;
+            color: #fff;
+        }
+
+        form{
+            gap: 5px;
+        }
+        
+        input, select, button{
+            padding: 10px;
+            height: 40px;
+        }
+        button{
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>
+            Text to ASCII Art
+        </h1>
+        <form>
+            <input text="text" name="text" placeholder="Enter text" value="{{ request.GET.text }}">
+            
+            
+            <select name="font">
+                {% for font in fonts %}
+                    <option value="{{ font }}" 
+                    {% if font == request.GET.font %}
+                        selected
+                    {% endif %}
+                    >
+                        {{ font }}
+                    </option>
+                {% endfor %}
+            </select>
+
+
+            <button type="submit">Submit</button>
+        </form>
+        <div class="text"><pre>{{ result }}</pre></div>
+
+
+        <small> Follow me on Instagram&nbsp;<a href="https://www.instagram.com/code_snail/">@code_snail</a></small>
+    </main>
+</body>
+</html>

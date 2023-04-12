@@ -1,7 +1,6 @@
-## Application with API 
+## Application with API
 
-1. [Blog Application API](https://github.com/devxhubcom/Django-example-project/blob/dev/blogs/README.md)
-
+1. [Blog Application API](https://github.com/devxhubcom/Django-example-project/blob/dev/blogs)
 
    - Feature
      - User base post
@@ -24,3 +23,15 @@
      - Multilanguage
      - Question
      - Answer
+
+4. [Human resorce management system HRMS]()
+
+   - Feature
+     - Employee
+     - Attendance
+     - Department
+     - Leave
+
+5. [Chat Application]()
+6. [QR Code Generator ]()
+7. [Text to Art]()
